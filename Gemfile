@@ -56,6 +56,12 @@ gem 'devise'
 # Use OmniAuth GitHub for authentication
 gem 'omniauth-github'
 
+# Use OmniAuth Google for authentication
+gem 'omniauth-google-oauth2'
+
+# Use OmniAuth Facebook for authentication
+gem 'omniauth-facebook'
+
 # Use rails CSRF protection [https://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf]
 gem 'omniauth-rails_csrf_protection'
 
