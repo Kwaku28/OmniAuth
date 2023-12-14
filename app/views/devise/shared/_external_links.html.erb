@@ -1,0 +1,7 @@
+<div class="d-flex gap-4">
+  
+  <%= button_to "Sign in with Github", user_github_omniauth_authorize_path, data: { turbo: false } %>
+
+  <%= button_to "Sign in with Google", user_google_oauth2_omniauth_authorize_path, data: { turbo: false } %>
+
+</div>
